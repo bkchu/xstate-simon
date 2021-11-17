@@ -50,7 +50,7 @@ const App = () => {
         click("blue");
         break;
       case " ":
-        send("START");
+        send(matches("gameInProgress.roundOver") ? "RETRY" : "START");
         break;
     }
   };
