@@ -14,7 +14,6 @@ const App = () => {
     {
       context: { simon, user, highestLevel, level },
       matches,
-      value,
     },
     send,
   ] = useMachine(simonMachine);
@@ -153,9 +152,7 @@ const App = () => {
     } else if (index === user.length - 1 && user[index] !== simon[index]) {
       return <IconX key={index} className="inline-block stroke-current" />;
     } else {
-      return (
-        <IconCircle key={index} className="inline-block stroke-current" />
-      );
+      return <IconCircle key={index} className="inline-block stroke-current" />;
     }
   });
 
