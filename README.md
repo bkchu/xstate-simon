@@ -5,7 +5,7 @@ This project was used as a means to learn [XState](https://xstate.js.org/docs/).
 *\*Yes, definitely not React-y, but this was done intentionally for the sake of demonstrating XState and not my understanding of React*
 
 ### Technologies Used
-- [XState](https://xstate.js.org/docs/)
+- [XState](https://xstate.js.org/docs/) - Check out the [visualization](https://stately.ai/viz/41819d2f-6ccd-4948-b74d-89d1cd056077)!
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React](https://www.reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
